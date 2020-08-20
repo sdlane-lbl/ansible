@@ -11,7 +11,7 @@ the first time a Python module is executed for that host.
 To control the discovery behavior:
 
 * for individual hosts and groups, use the ``ansible_python_interpreter`` inventory variable
-* globally, use the ``interpreter_python`` key in the ``[defaults]`` section of ``ansible.cfg``
+* globally, use the ``python_interpreter`` key in the ``[defaults]`` section of ``ansible.cfg``
 
 Use one of the following values:
 
